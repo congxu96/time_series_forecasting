@@ -104,7 +104,7 @@ if __name__ == "__main__":
 
     dataframes = []
 
-    for _ in tqdm(range(20000)):
+    for _ in tqdm(range(2000)):
         df = generate_df()
 
         # fig = plt.figure()
