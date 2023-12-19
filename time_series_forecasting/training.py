@@ -168,7 +168,7 @@ def train(
 
     trainer = pl.Trainer(
         max_epochs=epochs,
-        gpus=1,
+        gpus=0,
         logger=logger,
         callbacks=[checkpoint_callback],
     )
